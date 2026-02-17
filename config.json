@@ -19,7 +19,7 @@
     "autoslot": "false",
     "autocoinflip": "false",
     "autohunt": "true",
-    "autohuntbot": "true",
+    "autohuntbot": "false",
     "autopray": "true",
     "use_random_commands": "false"
   },
