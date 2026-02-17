@@ -6,6 +6,5 @@ wonderwords
 colorama
 2captcha-python
 protobuf==4.25.0
-audioop-lts
 typing-extensions
 
