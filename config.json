@@ -1,10 +1,10 @@
 {
-  "token": "enter account token",
+  "token": "OTM2MjcxMzM1MDQ1MzUzNDgy.dujn5UO3j6riXvWleWcyp36f9Oo",
   "prefix": ">",
   "settings": {
     "channel_ids":[
-      1253727886800588820,
-      1270754511362850817
+      947112636913446915,
+      947112636913446915
     ],
     "owodm_channelid": enter owo_dm channel id,
       "channel_change_interval": [5, 15],
@@ -14,14 +14,14 @@
       "random_commands": ["zoo", "ping", "pic animal_cat", "xp"]
     },
   "plugins": {
-    "autosell": "true",
+    "autosell": "false",
     "autolevelup": "true",
-    "autoslot": "true",
-    "autocoinflip": "true",
+    "autoslot": "false",
+    "autocoinflip": "false",
     "autohunt": "true",
     "autohuntbot": "true",
     "autopray": "true",
-    "use_random_commands": "true"
+    "use_random_commands": "false"
   },
   "captcha": {
     "avail_services": ["twocaptcha", "capsolver", "capmonster", "captchaai", "scrappey", "nopecha"],
