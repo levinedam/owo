@@ -61,10 +61,13 @@ banner = """
 
 """
 user_data = requests.get("https://discord.com/api/v9/users/@me", headers={"Authorization": token}).json()
-globalname = user_data["global_name"]
-if not globalname:
-    print(f"{Fore.RED}[Error] Incorrect Token Provided{Fore.RESET}")
-    os.system('exit')
+
+if "id" not in user_data:
+    print(f"{Fore.RED}[Error] Token tidak valid atau terkena Rate Limit/VPN Block.{Fore.RESET}")
+    print(f"Respon dari Discord: {user_data}")
+    sys.exit()
+globalname = user_data.get("global_name") or user_data.get("username") or "User"
+
 
 all_tasks = []
 all_tasks_stop = []
