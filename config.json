@@ -24,10 +24,10 @@
     "use_random_commands": "false"
   },
   "captcha": {
-    "avail_services": ["2captcha", "capsolver", "capmonster", "captchaai", "scrappey", "nopecha"],
+    "avail_services": ["twocaptcha", "capsolver", "capmonster", "captchaai", "scrappey", "nopecha"],
     "hcaptcha_service": "scrappey",
     "hcaptcha_key": "DMyFZFgvr5XA4oJ0wJVcH2yIRZfYYRDp0xnCcjvLph8wiKZ9Xv2xIpRQaZcb",
-    "TextToImage_service": "2captcha
+    "TextToImage_service": "twocaptcha
 ",
     "TextToImage_key": "89dccae4b4f5983fc7ead7b2d0288f5b",
     "huntbot_key": "join discord to get its free dumb"
