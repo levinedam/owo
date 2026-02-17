@@ -4,7 +4,7 @@
   "settings": {
     "channel_ids":[
       947112636913446915,
-      947112636913446915
+      1473359824938078268
     ],
     "owodm_channelid": 1470378204710568142,
       "channel_change_interval": [5, 15],
@@ -15,7 +15,7 @@
     },
   "plugins": {
     "autosell": "false",
-    "autolevelup": "true",
+    "autolevelup": "false",
     "autoslot": "false",
     "autocoinflip": "false",
     "autohunt": "true",
