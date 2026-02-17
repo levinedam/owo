@@ -28,7 +28,7 @@
     "hcaptcha_service": "scrappey",
     "hcaptcha_key": "DMyFZFgvr5XA4oJ0wJVcH2yIRZfYYRDp0xnCcjvLph8wiKZ9Xv2xIpRQaZcb",
     "TextToImage_service": "nopecha",
-    "TextToImage_key": "texttoimage_key",
+    "TextToImage_key": "https://api.nopecha.com/v1/status",
     "huntbot_key": "join discord to get its free dumb"
   },
 "notifications": {
