@@ -222,6 +222,9 @@ async def on_connect():
     print(f"Account : {globalname}")
     print(f"prefix : {prefix}")
     print(check_version())
+    
+    # Bagian yang diperbaiki: Menghapus 'buttons' dan 'metadata' karena tidak didukung 
+    # oleh library self-bot dan menyebabkan error dictionary update.
     await client.change_presence(
         status=discord.Status.dnd,
         activity=discord.Activity(
@@ -230,15 +233,15 @@ async def on_connect():
             details="Made By @TheAxes",
             timestamps={"start": time.time()},
             state="youtube.com/@theaxes",
-            buttons=["TheAxes", "Made Only For You ❤️"],
-            metadata=["https://youtube.com/@theaxes", "https://youtube.com/@theaxes"],
-            assets=
-    {"large_image": "https://media.discordapp.net/attachments/1336378795665657958/1341091056351051776/2cbb4933cb3c03a205f4ed85167a8530.png?ex=67b4bbe0&is=67b36a60&hm=b47625464d95638d8b40be15d6502b719117506a051ea329dbc724208efb9580&=&format=webp&quality=lossless&width=291&height=291",
-    "large_text": "axesarecool",
-    "small_image": "https://media.discordapp.net/attachments/1115605458602971157/1341089828187668572/1a449430e3a9a830efebb8c57917f943.png?ex=67b4babb&is=67b3693b&hm=d8cf73451fc368c56439986d608a33e382f1090d02d3d41bd56627490ca0b435&=&format=webp&quality=lossless&width=530&height=530",
-    "small_text": "uwuuwu"
-        }), 
+            assets={
+                "large_image": "https://media.discordapp.net/attachments/1336378795665657958/1341091056351051776/2cbb4933cb3c03a205f4ed85167a8530.png",
+                "large_text": "axesarecool",
+                "small_image": "https://media.discordapp.net/attachments/1115605458602971157/1341089828187668572/1a449430e3a9a830efebb8c57917f943.png",
+                "small_text": "uwuuwu"
+            }
+        ), 
     )
+
 
 def normalize_message(content):
     # Remove zero-width characters or any unintended space splitting
