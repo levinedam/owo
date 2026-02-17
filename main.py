@@ -1,22 +1,3 @@
-# Skids Go Away Else I'll kidnap your basements kids
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import os
 import discord, time, requests, asyncio, random, json, colorama
 import re
