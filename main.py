@@ -441,7 +441,7 @@ async def owobalace():
 
 @tasks.loop(minutes=random.randrange(15, 20))
 async def autosleep():
-    tosleep =random.randrange(3, 8)
+    tosleep =random.randrange(1, 2)
     print(f"{Fore.LIGHTGREEN_EX}[Sleeper] Bot Sleeping for {tosleep} Minutes{Fore.RESET}")
     all_tasks_stop.remove(autosleep)
     if config['plugins']["autohuntbot"] == "true":
