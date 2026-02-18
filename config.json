@@ -32,7 +32,7 @@
     "huntbot_key": "join discord to get its free dumb"
   },
 "notifications": {
-  "captcha_alerts": "webhook_url",
+  "captcha_alerts": "https://owobot.com/captcha",
   "daily_claim_alerts": "webhook_url",
   "huntbot_alert": "webhook_url",
   "funds_alerts": "webhook_url"
